@@ -17,6 +17,7 @@ public class MultiplierTest {
         Multiplier multiplier = new Multiplier();
 
         int n = 5;
+        
         multiplier.createMultiplicationTable(n);
 
         List<String> expected = List.of(
